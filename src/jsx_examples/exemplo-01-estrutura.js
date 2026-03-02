@@ -4,7 +4,7 @@
 
 import { View, Text, StyleSheet } from "react-native";
 
-export default function Exemplo01() {
+export default function Exemplo01() {  /** Escrita em PascalCase */
   return (
       <View style={styles.container}> 
         <Text style={styles.titulo}> Estrutura Padrão </Text>
@@ -14,9 +14,11 @@ export default function Exemplo01() {
   );
 }
 
+/* Estilização no próprio arquivo do componente. */
+
 const styles = StyleSheet.create({ 
   /* PERMITE A CRIAÇÃO PERSONALIZÁVEL, SEM A NECESSIDADE DE CRIAR NOVOS OBJETOS TODA VEZ QUE FOR ESTILIZAR */
-  container: {
+  container: { /* os 'atributos' se tornam camelCase */
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
