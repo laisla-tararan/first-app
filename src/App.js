@@ -14,12 +14,14 @@ import ExercicioView07 from './atv_flex-viewcomponent/exercicio7';
 import ExercicioView08 from './atv_flex-viewcomponent/exercicio8';
 import ExercicioView09 from './atv_flex-viewcomponent/exercicio9';
 import ExercicioView10 from './atv_flex-viewcomponent/exercicio10';
-
+//somativa
+import Exercicio1 from './somativa_pratica/layout_grades';
+import Exercicio2 from './somativa_pratica/painel_divisor';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ExercicioView10/>
+      <Exercicio2/>
     </View>
   );
 }
