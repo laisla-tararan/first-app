@@ -1,17 +1,12 @@
 import {View, StyleSheet} from "react-native";
-import CartaoPerfil from "./props/cartao-perfil";
-import CardProduto from "./props/ex1-prop";
-import CartaoUsuario from "./props/ex2-props";
-import Saudacao from "./props/ex3-props";
-import PerfilAluno from "./props/ex4-props";
-import Botao from "./props/desafio-props";
+import ContadorExample from "./hooks/useState_example";
+import TelaDeLogin from "./hooks/useRef_example";
+import TelaMoeda from "./hooks/useEffect_example";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Botao titulo="entrar"/>
-      <Botao titulo="sair"/>
-      <Botao titulo="cadastrar"/>
+      <TelaMoeda/>
     </View>
   );
 };
@@ -21,6 +16,7 @@ export default function App() {
       gap: 10,
       padding: 50,
       justifyContent: 'center',
-      alignItems: 'center'
+      alignItems: 'center',
+      flex: 1
     }
   });
