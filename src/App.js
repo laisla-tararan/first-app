@@ -3,11 +3,13 @@ import ContadorExample from "./hooks/useState_example";
 import TelaDeLogin from "./hooks/useRef_example";
 import TelaMoeda from "./hooks/useEffect_example";
 import Recados from "./hooks/exercicio-recados";
+import FormularioExemplos from "./text_input/formulario";
+import FlatListExemplo from "./flatlist/flatlist";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Recados/>
+      <FlatListExemplo/>
     </View>
   );
 };
@@ -15,9 +17,7 @@ export default function App() {
   const styles = StyleSheet.create ({
     container: {
       gap: 10,
-      padding: 50,
-      justifyContent: 'center',
-      alignItems: 'center',
+      padding: 30,
       flex: 1
     }
   });
